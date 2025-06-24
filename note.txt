@@ -1,0 +1,11 @@
+npx create-next-app@latest
+npm install @clerk/nextjs
+npx shadcn@latest init
+npx shadcn@latest add button badge calendar card checkbox drawer dropdown-menu input popover progress select switch table tooltip sonner
+(use --legacy-peer-deps)
+npx prisma init
+npx prisma migrate dev --name create-models
+npx prisma generate 
+if error "@prisma/client": "^6.8.2",
+npm i react-spinners --legacy-peer-deps
+npm i react-hook-form zod @hookform/resolvers --legacy-peer-deps
